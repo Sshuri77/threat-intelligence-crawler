@@ -12,7 +12,7 @@ from elasticsearch.helpers import bulk
 logger = logging.getLogger(__name__)
 
 DEFAULT_INDEX = "threat_intel"
-DEFAULT_HOST = os.environ.get("ELASTICSEARCH_URL", "https://192.168.0.123:9200")
+DEFAULT_HOST = os.environ.get("ELASTICSEARCH_URL", "https://X.X.X.X")
 def _auth_tuple(
     username: str | None,
     password: str | None,
